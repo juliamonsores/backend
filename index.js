@@ -8,7 +8,7 @@ app.get("/",(req, res) => {
     });
 });
 
-app.get("/produtos", (req, res) => {rest.json ( [{nome: "celular"}, {nome:"tv"}, {nome:"sofá"}])
+app.get("/produtos", (req, res) => {rest.json ( [{nome: "celular"}, {nome:"tv"}, {nome:"sofa"}])
 })
 
 const PORT = 3000;
